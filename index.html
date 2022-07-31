@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer type="text/javascript" src="timer.js"></script>
+    <script defer type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title></title>
+</head>
+<body>
+    <div class="timer">
+        <div class="controls">
+            <input id="duration" value="30"/>
+            <div>
+                <button id="start">Start</button>
+                <button id="pause">Pause</button>
+            </div>
+        </div>
+        <svg class="dial">
+            <circle 
+                r="190" 
+                cx="200" 
+                cy="200"
+                fill="transparent"
+                stroke="blue"
+                stroke-width="15"
+                transform="rotate(-90, 200, 200)"
+                <!--stroke-dashoffset="-100"-->
+                <!--stroke-dasharray="1200"-->
+
+            />
+        </svg>
+
+
+    </div>
+</body>
+</html>
